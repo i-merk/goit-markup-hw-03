@@ -245,7 +245,9 @@ row-gap: 48px;
     letter-spacing: 0.02em;
     text-align: center;}
 
-.section-fier {margin-bottom: 8px }
+.section-fier {margin-bottom: 8px;
+    padding: 120px 0 120px 0; }
+
 .h-drei-section-fier {color: var(--NAVY-BLUE, #2E2F42);
 
     /* Header 3 */
@@ -256,9 +258,11 @@ row-gap: 48px;
     line-height: 24px; /* 120% */
     letter-spacing: 0.4px;
     padding-top: 32px;
-    padding-bottom: 16px;
     padding-left: 16px;
+    margin-bottom: 8px
 }
+
+.list-section-fier {width: calc((100% - 48px) / 3);}
     
 .main_font, .main_font-address {color: var(--SLATE, #434455);
     font-size: 16px;
