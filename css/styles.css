@@ -23,16 +23,19 @@ margin: 0 auto;}
 
 }
 
-.header{border-bottom: 1px (--CORNFLOWER, #E7E9FC);
+.header{ border-bottom: 1px solid #e7e9fc;
     background: var(--WHITE, #FFF);}
 
-.h-logo {color: var(--IRIS, #4D5AE5);
+.logo {color: var(--IRIS, #4D5AE5);
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-transform: uppercase;}
+    text-transform: uppercase;
+    display: flex;
+    margin-right: 76px;
+}
 
     .h-logo_one {color: var(--IRIS, #2E2F42
         );
@@ -58,8 +61,6 @@ margin: 0 auto;}
                 }
 .header-menu:hover { color: #404bbf;} 
 .header-menu:focus { color: #404bbf;}   
-            
-.logo { display: flex;}
 
             
 .address {margin-left: auto;}
