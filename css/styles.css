@@ -112,7 +112,7 @@ p,h1,h2,h3,h4,h5,h6,.btn_h-one {margin: 0; margin: 0;}
     margin-left: 472px;
     max-width: 496px;}
 
-.btn_h-one{color: #FFF;
+.btn_h-one {color: #FFF;
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif; 
     font-size: 16px;
@@ -123,7 +123,6 @@ p,h1,h2,h3,h4,h5,h6,.btn_h-one {margin: 0; margin: 0;}
     border: none;
     border-radius: 4px;
     display: block;
-    align-items: flex-start;
     padding: 16px 32px;
     gap: 10px;
     background: var(--IRIS, #4D5AE5);
